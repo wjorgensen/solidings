@@ -6,10 +6,10 @@ import {console2} from "forge-std/console2.sol";
 contract Variables2 {
     
     //TODO: Complete the code
-    uint256 public x = 10;
+    uint256 public x 
 
     function test() public {
-        
+
         if( x == 10 ){
             console2.log("X is 10");
         } else {
